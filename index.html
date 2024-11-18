@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minuteur</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="logo">
+                <a href="#">
+                    <span>🕒</span> Minuteur
+                </a>
+            </section>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <section class="timer">
+            <div class="fields">
+                <input type="number" id="hours" class="time-section" placeholder="00" maxlength="2"> 
+                <input type="number" id="minutes" class="time-section" placeholder="00" maxlength="2">
+                <input type="number" id="seconds" class="time-section" placeholder="00" maxlength="2"> 
+            </div>
+        </section>
+            
+        <section class="play">
+            <button id="play-button" class="hide">▶</button>
+        </section>
+    </div>
+
+    <footer>
+        &copy;2024 Bacode Inc.
+    </footer>
+
+    <script src="/app.js"></script>
+</body>
+</html>
